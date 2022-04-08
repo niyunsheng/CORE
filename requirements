@@ -1,0 +1,6 @@
+opencv-python
+tqdm
+scikit-learn
+albumentations
+pandas
+facenet_pytorch
