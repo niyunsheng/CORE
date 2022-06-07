@@ -1,6 +1,6 @@
 # CORE: COnsistent REpresentation Learning for Face Forgery Detection, CVPRW 22
 
-[paper](https:) | [video](https:)
+[paper](https://arxiv.org/abs/2206.02749) | [video]()
 
 ![framework](framework.png)
 
