@@ -1,6 +1,6 @@
 # CORE: COnsistent REpresentation Learning for Face Forgery Detection, CVPRW 22
 
-[paper](https://arxiv.org/abs/2206.02749) | [video]()
+[paper](https://arxiv.org/abs/2206.02749) 
 
 ![framework](framework.png)
 
@@ -45,4 +45,13 @@ For the cross-dataset results in Tab.8, three commands are as follows:
 
 ## Citation
 
-coming soon
+```
+@InProceedings{Ni_2022_CVPR,
+    author    = {Ni, Yunsheng and Meng, Depu and Yu, Changqian and Quan, Chengbin and Ren, Dongchun and Zhao, Youjian},
+    title     = {CORE: COnsistent REpresentation Learning for Face Forgery Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {12-21}
+}
+```
