@@ -30,5 +30,6 @@ class CelebDF(BaseDataset):
         
         log_print("[{}]\t fake imgs count :{}, real imgs count :{}".format(train_type, len(fake_imgs),len(real_imgs)))
 
-        self.imgs = [[p,1] for p in fake_imgs] + [[p,0] for p in real_imgs]
+        fake_imgs = [[p,1] for p in fake_imgs]
+        real_imgs = [[p,0] for p in real_imgs]
         self.imgs = fake_imgs + real_imgs
