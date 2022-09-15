@@ -38,5 +38,5 @@ class FFpp(BaseDataset):
         log_print("[{}]\t fake imgs count :{}, real imgs count :{}".format(train_type, len(fake_imgs),len(real_imgs)))
 
         self.imgs = fake_imgs + real_imgs
-        import random
-        self.imgs = random.sample(self.imgs, 64)
+        # import random
+        # self.imgs = random.sample(self.imgs, 64)
