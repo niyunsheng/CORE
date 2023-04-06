@@ -53,7 +53,6 @@ def get_augs(name="base", norm="imagenet", size=299):
     if name == "None":
         return transforms.Compose([
             transforms.Resize(IMG_SIZE),
-            transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             transforms.Normalize(mean=mean,std=std),
         ])
